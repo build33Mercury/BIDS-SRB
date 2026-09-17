@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use BIDS-SRB, cite the archived software release and associated article once public identifiers exist."
+title: "BIDS-SRB: BIDS Semantic Robustness Benchmark"
+type: software
+version: 0.1.0.dev1
+date-released: 2026-09-16
+authors:
+  - family-names: "BIDS-SRB contributors"
+license: "MIT"

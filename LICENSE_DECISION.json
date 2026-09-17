@@ -1,0 +1,8 @@
+{
+  "candidate_sha256": "fd71f10fc5fe6ae88369a7bbf84643cb41f2ccd73dbbc022762406d072cfbf5a",
+  "compute_go": "NO_GO_LOCKED",
+  "owner_decision_basis": "Explicit MIT selection made by project owner during Gate 20 publication on 2026-09-16",
+  "scientific_execution_authorized": false,
+  "selected_license": "MIT",
+  "software_version": "0.1.0.dev1"
+}

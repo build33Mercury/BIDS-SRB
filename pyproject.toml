@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bids-srb"
+version = "0.1.0.dev1"
+description = "Pre-outcome public candidate for the BIDS Semantic Robustness Benchmark"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "BIDS-SRB contributors"}]
+dependencies = []
+
+[project.scripts]
+bids-srb = "bids_srb.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
