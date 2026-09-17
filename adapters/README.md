@@ -1,0 +1,1 @@
+Adapters are interfaces for tool identity, applicability, command construction, structured extraction, derivative inventory, canonicalization, error classification, and provenance. Research tool execution is disabled in this candidate.
