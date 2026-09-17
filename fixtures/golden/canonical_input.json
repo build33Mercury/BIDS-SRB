@@ -1,0 +1,18 @@
+{
+  "timestamp": "semantic-top-level-preserved",
+  "runtime": {
+    "timestamp": "2026-09-16T00:00:00Z",
+    "completed_workers": [
+      "w2",
+      "w1"
+    ]
+  },
+  "workflow": {
+    "semantic_uuid": "550e8400-e29b-41d4-a716-446655440000",
+    "ordered": [
+      "A",
+      "B"
+    ]
+  },
+  "a": 1
+}

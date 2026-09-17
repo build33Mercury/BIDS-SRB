@@ -1,0 +1,24 @@
+{
+  "case_id": "SYN-DEMO-001",
+  "fixture_class": "synthetic",
+  "operator": "json_remove_key",
+  "files": [
+    {
+      "path": "sub-01/func/sub-01_task-demo_bold.json",
+      "json": {
+        "RepetitionTime": 2.0,
+        "TaskName": "demo"
+      }
+    }
+  ],
+  "mutation": {
+    "path": "sub-01/func/sub-01_task-demo_bold.json",
+    "remove_key": "RepetitionTime"
+  },
+  "repair": {
+    "path": "sub-01/func/sub-01_task-demo_bold.json",
+    "set": {
+      "RepetitionTime": 2.0
+    }
+  }
+}
