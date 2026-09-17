@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BIDS-SRB Case Manifest",
+  "type": "object",
+  "required": [
+    "case_id",
+    "fixture_class",
+    "operator",
+    "files"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "fixture_class": {
+      "enum": [
+        "synthetic",
+        "external_static",
+        "empirical"
+      ]
+    },
+    "operator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-fA-F]{64}$"
+          },
+          "json": {
+            "type": "object"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "expected": {
+      "type": "object"
+    },
+    "mutation": {
+      "type": "object"
+    },
+    "repair": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}
